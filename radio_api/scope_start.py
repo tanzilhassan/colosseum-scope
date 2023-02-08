@@ -481,7 +481,7 @@ def run_scope(bs_ue_num: int, iperf: bool, use_colosseumcli: bool,
 
     # define name of the tmux session in which commands are run
     tmux_session_name = 'scope'
-    srslte_config_dir = os.path.expanduser('~/radio_code/srslte_config/')
+    srslte_config_dir = os.path.expanduser('~/root/radio_code/srsLTE/config_files/general_config/')
 
     # kill existing tmux sessions at startup
     os.system('kill -9 `pidof srsepc`')
